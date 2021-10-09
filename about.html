@@ -1,0 +1,126 @@
+<!-- ***************************************************************************************
+* CS 290 Web Design - Project
+* Author: Tommy Armstrong
+* Date: 5/22/2019
+* Description: 	This is the 'About Me' page for my personal website. It has a slideshow of 
+*				my pictures that shows myself and a couple of my interests. The rest of the page
+*				describes myself in a nutshell and some of my hobbies.
+********************************************************************************************* -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Just a Tom</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Montserrat|Open+Sans|Philosopher&display=swap" rel="stylesheet">
+	<script type = "text/javascript" 
+         src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">          
+      </script>
+</head>
+<body>
+	<header>
+		<a href="index.html" class="header-logo">Just a Tom</a>
+		<nav>
+			<ul>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="content">
+		<div class = "wrapper">
+			<section class="about-content">
+				<div class="about-top">
+					<h1>Hi there, I'm Tommy Armstrong and I'm currently<br>building a career in tech.</h1>
+					<div class="slidePicture asyncImage" id="slide1" data-src="slidepics/slide1.jpg"></div>
+					<div class="slidePicture asyncImage" id="slide2" data-src="slidepics/slide2.jpeg"></div>
+					<div class="slidePicture" id="slide3"></div>
+					<div class="slidePicture" id="slide4"></div>
+
+				</div>
+				<div class="about-info">
+
+					<p class="about-p-1">I'm from Olympia, Washington and recently completed a career change to tech. The career change culminated with a job at SAS Institute
+                        and recently graduating from Oregon State University's post-bacc BS Computer Science degree. Prior to that I graduated with degrees in Biochemistry, Chemistry and Mathematics
+                        from the University of Washington. I've always had an affinity for numbers, data and programming which is one of the reasons why I switched to tech. It allows me to
+                        build a career out of that affinity. I currently reside in Raleigh, NC having moved here from the west coast in June of 2020.
+                    </p>
+                    <br>
+					<div class="about-text">
+					
+						<p>I recently graduated from my Computer Science degree with a 4.0 GPA in March of 2021. Throughout this degree I realized I really enjoy working with web frameworks.
+                          Especially those that are Python based like Django and Flask. My first job in tech has been as a technical consultant at SAS Institute Inc. I get to build analytical
+                          software solutions for clients and provide avenues to meaningful data analysis and visualization.</p><br>
+                          
+						<p>In my spare time I love getting outdoors. I'm a pretty competitive guy so I love playing sports, especially soccer and volleyball. I also like to get out in nature, 
+                           spending much of the spring and summer hiking. I even summited Mt. Rainier the summer of 2017. I'm currently looking to get more involved with running and hope to
+                           complete my first half-marathon and subsequent marathon in the near future.</p>
+					</div>
+                    <div class="about-hobbies">
+						<h2>Hobbies:</h2>
+						<ul>
+							<li>Hiking</li>
+							<li>Climbing</li>
+							<li>Volleyball</li>
+							<li>Soccer</li>
+							<li>Coding</li>
+							<li>Reading</li>
+						</ul>
+					</div>
+
+
+				</div>
+			</section>
+		</div>
+
+	</main>
+
+
+	<div class="wrapper">
+		<footer>
+			<ul class="footer-page-links">
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<ul class="footer-projects-links">
+				<li><p>FreeCodeCamp Projects</p></li>
+				<li><a href="https://armte.github.io/tribute/">Tribute Page</a></li>
+				<li><a href="https://armte.github.io/quotegen/">Random Quote Generator</a></li>
+				<li><a href="https://armte.github.io/weatherapp/">Local Weather App</a></li>
+				<li><a href="https://armte.github.io/surveyform/">Hiking Survey Form</a></li>
+			</ul>
+
+            <ul class="footer-projects-links">
+				<li><p>School Projects</p></li>
+				<li><a href="https://rats-osu2021.herokuapp.com/" target="_blank" rel="noopener noreferrer">Resilient Algorithmic Trading Strategies</a></li>
+				<li><a href="https://group47-recibase.herokuapp.com" target="_blank" rel="noopener noreferrer">Recibase</a></li>
+			</ul>
+
+			<div class="footer-social">
+
+				<a href="https://www.linkedin.com/in/ta312">
+					<img src="linkedin-logo.png" alt="LinkedIn Logo Icon">
+				</a>
+
+				<a href="https://www.instagram.com/tommya312/">
+					<img src="insta-logo-color.png" alt="Instagram Logo Icon">
+				</a>
+
+				<a href="https://www.facebook.com/tommy.armstrong.73">
+					<img src="facebook-logo.png" alt="Facebook Logo Icon">
+				</a>
+
+			</div>
+
+		</footer>
+	</div>
+	<script src="about.js"></script>
+	<script src="fastImgLoad.js"></script>
+</body>
+</html>
